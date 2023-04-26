@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <title>Login</title>
+    <style>
+        body {
+          background-image: linear-gradient(
+              rgba(0, 0, 0, 0.3),
+              rgba(0, 0, 0, 0.3)
+            ),
+            url(./images/bullets&firearm.webp);
+          background-size: cover;
+          background-size: cover;
+          position: relative;
+        }
+      </style>
+     
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-div">
+          <div class="saps-logo">
+            <img
+              style="height: 70px; width: 70px; margin-left: 30px"
+              src="./images/SAPS-Logo.png"
+              alt=""
+            />
+          </div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li style="margin-right: 350px"><a href="#">Help</a></li>
+            
+          </ul>
+        </div>
+      </nav>
+      <div class="login-form">
+        <p style="margin-left: 350px; font-size: 25px;margin-bottom: 10px;">Login</p>
+        <form>
+          <label>Username</label>
+          <input type="email" name="email"  required />
+          <div class="username">
+            <a style="margin-top: 40px;" >Forgot Username?</a>
+          </div>
+          
+          
+          <label>Password</label>
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <div class="password">
+            <a>Forgot Password?</a>
+          </div>
+         
+          <a href="Dashboard-external.html"><input type="button" value="Login" id="login" /></a>
+          <p style="margin-left: 325px;">Or Login with</p>
+         
+          <input  type="button" value="f" id="facebook"  />
+          <input  type="button" value="G" id="google"  />
+          
+          
+          <p style="font-size: 13px; margin-left: 270px; margin-top: 20px;">
+            
+            Don't have an account?<a href="Register.html" id="account">Register</a>
+          </p>
+          
+        </form>
+      </div>
+    
+</body>
+</html>

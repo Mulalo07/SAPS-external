@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;800;900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*NavBar*/
+
+.navbar {
+    background-color: #272360;
+    padding: 5px;
+}
+
+.nav-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-div ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.nav-div ul li a {
+    color: white;
+    font-size: 15px;
+    margin-right: 25px;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-div ul li a:hover{
+    color: #8DC8CC;
+    transition: 0.3s;
+}
+
+/*Registration page*/
+.registration-form {
+     background:rgba(4, 9, 30, 0.7);
+     width: 800px;
+     height: 450px;
+     padding: 10px 20px;
+     border-radius: 5px;
+     margin-left: 250px;
+     margin-top: 20px;
+    
+}
+
+.registration-form p {
+    color: white;
+}
+
+.registration-form select {
+    padding: 5px 30px;
+    margin: 4px;
+    color: #4c4c4c;
+    outline: none;
+}
+
+input{
+ padding: 5px 30px;
+ margin: 4px;
+ outline: none;
+
+}
+
+form {
+    margin-top: 15px;
+}
+
+
+
+label {
+    width: 140px;
+    display: inline-block;
+    margin-left: 150px;
+    font-size: 16px;
+    margin-top: 4px;
+    color: white;
+}
+
+
+
+
+#submit { 
+   margin-left: 230px;
+    margin-bottom: 20px;
+    padding: 7px 120px;
+    background:  #272360;
+    color: white;
+    border:none;
+    border-radius: 4px;
+
+
+}
+
+/* Sidebar content*/
+
+.sidebar_and_content{
+    display: flex;
+    margin-top: 35px;
+   
+    margin-left: 50px;
+   
+  }
+
+  .sidebar_and_content aside {
+    border-radius: 10px 0px 0px 10px;
+  }
+
+aside {
+    display: flex;
+     width: 15%;
+    
+     background: white;
+     padding: 15px 0px 15px 30px;
+     margin-left: 50px;
+  }
+
+
+
+aside ul {
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+aside ul li{
+   padding: 8px 0;
+   margin-top: 10px;
+}
+
+aside ul li a{
+   text-decoration: none;
+   color: rgb(0, 0,  .5);
+   font-size: 14px;
+   font-weight: 500;
+   display: flex;
+   align-items: center;
+   transition: .3s linear;
+ }
+
+aside ul li a:hover{
+    color: #8DC8CC;
+}
+
+/* Applicant stats*/
+.applicant_stats {
+    display: flex;
+    background: #f5f5f5;
+    width: 800px;
+    flex-direction: column;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.search-bar{
+display: flex;
+ background: #f0f0f0;
+ width: 350px;
+ height: 43px;
+ align-items: center;
+ padding: 10px;
+ border: 0.7px solid gray;
+ margin-top: 15px;
+ margin-left: 200px;
+ border-radius: 5px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px 10px 5px 0px;
+    background: #f0f0f0;
+
+}
+
+.applicant_row1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.licences {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 20px;
+}
+
+.licences p {
+    align-items: center;
+    justify-content: center;
+}
+
+.applicant_row2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.applicant_row3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+/*Applicant-info*/
+
+.applicant-opt {
+    display: flex;
+    background: #f5f5f5;
+    width: 630px;
+}
+
+.applicant-opt ul  {
+    list-style-type: none;
+    margin-left: 25px;
+    margin-top: 20px;
+   
+}
+
+.applicant-opt ul li{
+   
+    margin-top: 6px;
+ }
+
+.applicant-opt ul li a {
+    text-decoration: none;
+    color: rgb(0, 0,  .5);
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    transition: .3s linear;
+
+}
+
+.status-update{
+    display: flex;
+    background: white;
+    width: 200px;
+    flex-direction: column;
+    border-radius: 0px 10px 10px 0px;
+    
+}
+
+.update{
+    border-radius: 7px;
+    height: 170px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background: #E5E5E5;
+}
+
+.update ul {
+ list-style-type: none;
+ font-size: 13px;
+}
+
+.update ul li {
+    margin-top: 6px;
+    text-decoration: underline white 0.7px;
+    color: #4c4c4c;
+}
+
+.FAQ{
+    border-radius: 7px;
+    height: 170px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    background: #E5E5E5;
+
+}
+
+.FAQ ul {
+    list-style-type: none;
+    font-size: 13px; 
+}
+
+.FAQ ul li {
+    margin-top: 6px;
+    text-decoration: underline white 0.7px;
+    color: #4c4c4c;
+}
+
+
+/* Application for Firearm*/
+
+.application-process {
+ display: flex;
+ width: 850px;
+ background:  whitesmoke;
+ flex-direction: column;
+ border-radius: 0px 10px 10px 0px;
+}
+
+
+
+
+.title{
+   
+    padding-bottom: 20px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+
+}
+
+.buttons{
+    
+    margin-top: auto;
+
+}
+
+#button{
+    padding: 12px 84px;
+    margin-left: 70px;
+    background: #8DC8CC;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+#cancel{
+    padding: 12px 84px;
+    margin-left: 65px;
+    background: #E5E5E5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+/*Login Page*/
+
+.login-form {
+    background:rgba(4, 9, 30, 0.7);
+    
+    width: 800px;
+    height: 450px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 250px;
+    margin-top: 20px;
+   
+}
+
+.login-form p {
+   color: white;
+}
+
+.login-form form a {
+    color: white; 
+    font-size: 10px;
+    text-decoration: none;
+    
+}
+
+input{
+padding: 5px 30px;
+margin: 4px;
+
+}
+
+.login-form form {
+   margin-top: 15px;
+    
+}
+
+
+
+.login-form label {
+   width: 140px;
+   
+   margin-left: 150px;
+   font-size: 16px;
+   margin-top: 20px;
+   color: white;
+}
+
+.username{
+    margin-left: 420px;
+}
+
+.password{
+    margin-left: 420px;
+}
+
+#login { 
+  margin-left: 230px;
+   margin-top: 20px;
+   padding: 7px 120px;
+   background:  #272360;
+   color: white;
+   border:none;
+   border-radius: 4px;
+
+
+}
+
+#facebook{
+    font-size: 28px;
+    border: none;
+    border-radius: 5px;
+     color: white;
+     background: #272360; 
+     font-weight: bolder; 
+     padding: 0px 50px;
+     margin-left: 230px
+}
+
+#google{
+     font-size: 28px;
+     border: none;
+     border-radius: 5px;
+     color: white;
+     background: #272360; 
+     font-weight: bolder; 
+     padding: 0px 50px;
+     margin-left: 30px
+}
+
+/* Application-Payment*/
+
+#pay-now{
+    padding: 12px 65px;
+    margin-left: 50px;
+    background: #8DC8CC;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.payment-opt{
+margin-top: 20px;
+margin-left: 30px;
+display: flex;
+width: 220px;
+}
+
+
+.payment-opt ul{
+
+    list-style: none;
+    font-size: 13px;
+
+}
+
+.payment-opt ul li {
+    margin-top: 10px;
+}
+
+.payment-opt ul li:hover{
+    color: #8DC8CC;
+    cursor: pointer;
+}
+
+.card-details{
+    display: inline;
+   
+    width:250px;
+    margin-left: 600px;
+    margin-top: -150px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0.1px 0.1px 0.1px 0.7px;
+   
+}
+
+.card-details p {
+    color: #4c4c4c;
+
+}
+
+.card-details ul {
+    list-style: none;
+    margin-left: 10px;
+}
+
+.card-details ul li {
+  color: #4c4c4c;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+
+
+
+
+/*Profile-Section*/
+
+.profile-section{
+    
+    background: #f5f5f5;
+    width: 850px;
+    border-radius: 0px 10px 10px 0px;
+    
+}
+
+.profile-header{
+    padding-bottom: 20px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+
+}
+
+.profile-section h3{
+    margin: 15px 0px 0px 350px;
+}
+
+.personal-details{
+    width: 50%;
+    border-right: 1px solid #4c4c4c;
+    height: 100%;
+    display: inline-block;
+    
+}
+
+.personal-details ul {
+    margin: 20px  40px 0px;
+    list-style: none;
+    font-size: 14px;
+}
+
+.personal-details ul li{
+    margin: 5px 10px 0px;
+
+}
+
+.personal-details ul li:hover{
+   color: #8DC8CC;
+   cursor: pointer;
+}
+
+.firearm-details {
+    
+    
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -350px;
+    
+}
+
+.firearm-details label{
+    margin-left: 70px;
+    color: black;
+    font-size: 14px;
+}
+
+.firearm-details select{
+    margin-left: 70px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 0.8px #4c4c4c;
+    outline: none;
+    color: #4c4c4c;
+    margin-right: 20px;
+
+}
+
+.firearm-details form p{
+   margin-left: 70px;
+   margin-bottom: 7px;
+   font-size: 10px;
+   color: #4c4c4c;
+}
+
+.firearm-details form span {
+    color: #4c4c4c;
+    font-size: 20px;
+    margin-left: 15px;
+   align-items: center;
+    background: #8DC8CC;
+    border-radius: 2px;
+}
+
+.firearm-details  span{
+    color: #8DC8CC;
+    margin-left: 365px;
+    margin-top: -100px;
+    padding: 5px;
+   
+    background: #E5E5E5;
+    border-radius: 3px;
+
+}
+
+.firearm-details  span:hover{
+    color: white;
+    cursor: pointer;
+}
